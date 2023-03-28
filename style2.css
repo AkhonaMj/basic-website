@@ -6,8 +6,8 @@ body {
 
 }
 
-.intro-section {
-    margin-bottom: 9ex;
+.intro-content {
+    margin-bottom: 10ex;
     justify-content: space-evenly;
     align-content: space-between;
     display: flex;
@@ -20,19 +20,23 @@ body {
     float: right;
     margin: auto;
 }
-
-
-.CityImage {
-
-    width: 250px;
+.which-city {
+    margin-left: 2ex;
+    display: flex;
+    
 }
 
- /* .one {
-    display: flex;
-    margin-bottom: 10ex;
-    margin-left: 5ex; 
+.which-city-image {
+    margin-right: 2ex;
+    width: 250px;
+    float: left;
+    
 
-} */
+
+} 
+.which-city-content {
+margin-bottom:10ex;
+}
 
 table,
 th,
@@ -44,52 +48,60 @@ td {
 
 
 
-.historical-places { 
+.historical-places {
     display: flex;
     margin-top: 5ex;
 
 }
 
-.district-content {
+/* .district-content {
     display: flex;
 }
 
 .castle-content {
-    margin-top: 5ex;
     display: flex;
 }
 
 .city-content {
+    margin-bottom: 10ex;
     display: flex;
 
-} 
+} */
+
+.image {
+    float: left;
+    padding-right: 2em;
+}
+
 
 table {
     width: 90%;
 
 }
 
- @media (max-width:600px) {
-    .intro {
+@media (max-width:600px) {
+    .intro-content {
         flex-direction: column;
         text-align: center;
     }
 
-  /* .city-content {  
-        flex-direction: row-reverse
-
-    }  */
-    .city-content {
+    .which-city-content {
         flex-direction: column;
 
     }
-.historical-places{
-    flex-direction: column;
 
+    .historical-places {
+        flex-direction: column;
+
+    }
     
+.city-content {
+    display: flex;
+flex-direction: row-reverse;
 }
 }
-  /* @media (max-width:980px) {
+
+/* @media (max-width:980px) {
     .historical-places {
         display: flex;
     }
