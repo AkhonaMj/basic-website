@@ -28,6 +28,7 @@ body {
 
 .which-city-image {
     margin-right: 2ex;
+    padding-right: 2ex;
     width: 250px;
     float: left;
     
@@ -71,6 +72,7 @@ td {
 .image {
     float: left;
     padding-right: 2em;
+    padding-left: 2em;
 }
 
 
