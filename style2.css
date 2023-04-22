@@ -81,6 +81,13 @@ table {
 
 }
 
+.button {
+    height: 100px;
+    width: 300px;
+
+
+}
+
 @media (max-width:600px) {
     .intro-content {
         flex-direction: column;
